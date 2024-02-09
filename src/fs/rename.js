@@ -5,6 +5,7 @@ const rename = async () => {
         console.log('FS operation failed =(')
     } else {
         rename('/home/tema/code/mitso-nodejs-basic/src/fs/files/wrongFilename.txt', '/home/tema/code/mitso-nodejs-basic/src/fs/files/properFileName.md')
+        console.log("done")
     }
 };
 
